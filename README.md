@@ -5,7 +5,7 @@ TDT4113 Datateknologi, Programmeringsprosjekt høst 2016.
 - Oppgave 1: Morse Coder (morse_main.py).
 - Oppgave 2: Stein, Saks, Papir  (RPS, stein_saks_papir.py), uryddig.
 - Oppgave 3: Krypto (Krypto.py), smooth.
-- Oppgave 4: Tekstanalyse, (Klassifikasjonssystem.py) smooth *.
+- Oppgave 4: Tekstanalyse, (Klassifikasjonssystem.py) smooth.
     - /data ligger i /TDT4113-2016/Tekstanalyse med struktur
         ```
         Tekstanalyse
