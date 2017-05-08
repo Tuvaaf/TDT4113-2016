@@ -88,3 +88,4 @@ ENV/
 # Rope project settings
 .ropeproject
 /Tekstanalyse/data/
+.idea/workspace.xml
