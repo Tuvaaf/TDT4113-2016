@@ -8,6 +8,10 @@ from time import sleep
 from sys import stdout
 
 
+__author__ = "Martin Langmo Karlstrøm"
+__project__ = "Tekstanalyse"
+
+
 class Klassifikasjonssystem:
 
     def __init__(self, p=0.01175, n=1):

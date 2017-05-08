@@ -1,4 +1,10 @@
+import paths
+
 import re
+
+
+__author__ = "Martin Langmo Karlstrøm"
+__project__ = "Tekstanalyse"
 
 
 class Reader:
@@ -8,8 +14,7 @@ class Reader:
         self.stop_word_n_grams = []
         self.open_stop_words()
 
-    def open_stop_words(self, file_path='/home/martin/Documents/Studier/2. klasse/Høst/Plab2/Programmeringslab 2/'
-                                        'TDT4113-2016/Tekstanalyse/stop_words.txt'):
+    def open_stop_words(self, file_path=paths.stop_words):
         file = open(file_path)
         self.stop_words = [x.strip() for x in file.readlines()]
 
@@ -26,8 +31,3 @@ class Reader:
 
     def get_stop_words(self):
         return self.stop_words
-
-"""
-r = Read()
-print(r.read_from_file('/home/martin/PycharmProjects/Tekstanalyse/data/alle/train/neg/0_3.txt'))
-"""

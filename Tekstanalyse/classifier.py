@@ -1,7 +1,12 @@
 from analyze import TrainerAnalyze
 from reader import Reader
+
 from collections import defaultdict
 from math import log10
+
+
+__author__ = "Martin Langmo Karlstrøm"
+__project__ = "Tekstanalyse"
 
 
 class Classifier(TrainerAnalyze):

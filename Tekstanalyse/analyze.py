@@ -1,10 +1,14 @@
 import paths
+from reader import Reader
 
 from os import listdir
 from os.path import isfile, join
 from collections import defaultdict
-from reader import Reader
 from sys import stdout
+
+
+__author__ = "Martin Langmo Karlstrøm"
+__project__ = "Tekstanalyse"
 
 
 class TrainerAnalyze:
@@ -253,6 +257,3 @@ class TrainerAnalyze:
                '\nN:\t' + str(self.neg_highest_inform_val)
         ret += '\n' + '-' * 250
         return ret
-
-
-#a = TrainerAnalyze(0.01, 2)
